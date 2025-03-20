@@ -1,7 +1,7 @@
 import getDataHarry from "./getData.js";
 
 async function showDataHarry(){
-    const cambio = await getDataHarry
+    const cambio = await getDataHarry(); 
     let div = document.getElementById("house");
     cambio.forEach(e => {
         let h1 = document.createElement("h1");
